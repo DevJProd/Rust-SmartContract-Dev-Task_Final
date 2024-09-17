@@ -56,6 +56,39 @@ Enter username: admin
 Enter password: password123
 ```
 
+## Main Menu
+Once logged in, you will be presented with a text-based interface offering the following options:
+
+- [1] Inventory Management
+  - View, add, remove, or update product information.
+- [2] Purchase Management
+  - Record new purchases and automatically update inventory levels.
+- [3] Sales Management
+  - Track and log sales, adjusting the inventory accordingly.
+- [4] Reporting
+  - Generate reports for inventory status, purchases, and sales summaries.
+- [5] Logout
+  - Use the number keys to select options from the menu.
+
+## Inventory Management
+- Add a new product:
+  - Enter product name, quantity, and price.
+- Update product:
+  - Modify the quantity or price of an existing product.
+- Remove product:
+  - Delete a product from the inventory.
+- View inventory:
+  - Displays a list of all products with their stock levels.
+
+## Purchase & Sales Management
+- Record a new purchase:
+  - Add stock to the inventory by recording new purchases.
+- Track a sale:
+  - Deduct stock from the inventory and record the sale information.
+## Reporting
+- Generate a report summarizing current inventory levels and recent sales.
+- Reports can be viewed within the application or exported to a file.
+
 ## Project Structure
 
 - **`src/main.rs`**: The entry point of the application where the inventory, sales, and purchase operations are demonstrated.
