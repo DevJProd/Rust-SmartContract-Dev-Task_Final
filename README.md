@@ -4,6 +4,20 @@
 
 The Rusty Store Inventory Management System is a simple yet powerful tool designed to manage the inventory, sales, and purchases of a small retail store. It enables store managers to efficiently track products, record sales and purchases, and generate detailed reports on the store's activities.
 
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Authentication](#authentication)
+- [Main Menu](#main-menu)
+- [Inventory Management](#inventory-management)
+- [Purchase & Sales Management](#purchase--sales-management)
+- [Reporting](#reporting)
+- [Project Structure](#project-structure)
+- [Contributions](#contributions)
+
 ## Features
 
 - **Authentication System** : Users are required to log in before accessing the inventory features.
@@ -25,7 +39,6 @@ To run this project locally, ensure you have the following installed:
 git clone https://github.com/YourUsername/rust-inventory-system.git
 ```
 Or download the project as a ZIP and extract it.
-
 
 2. **Navigate to the project directory**:
 ```bash
@@ -59,32 +72,33 @@ Enter password: password123
 ## Main Menu
 Once logged in, you will be presented with a text-based interface offering the following options:
 
-- [1] Inventory Management
+- **[1] Inventory Management**
   - View, add, remove, or update product information.
-- [2] Purchase Management
+- **[2] Purchase Management**
   - Record new purchases and automatically update inventory levels.
-- [3] Sales Management
+- **[3] Sales Management**
   - Track and log sales, adjusting the inventory accordingly.
-- [4] Reporting
+- **[4] Reporting**
   - Generate reports for inventory status, purchases, and sales summaries.
-- [5] Logout
+- **[5] Logout**
   - Use the number keys to select options from the menu.
 
 ## Inventory Management
-- Add a new product:
+- **Add a new product**:
   - Enter product name, quantity, and price.
-- Update product:
+- **Update product**:
   - Modify the quantity or price of an existing product.
-- Remove product:
+- **Remove product**:
   - Delete a product from the inventory.
-- View inventory:
+- **View inventory**:
   - Displays a list of all products with their stock levels.
 
 ## Purchase & Sales Management
-- Record a new purchase:
+- **Record a new purchase**:
   - Add stock to the inventory by recording new purchases.
-- Track a sale:
+- **Track a sale**:
   - Deduct stock from the inventory and record the sale information.
+
 ## Reporting
 - Generate a report summarizing current inventory levels and recent sales.
 - Reports can be viewed within the application or exported to a file.
